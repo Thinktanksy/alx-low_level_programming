@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - main block
- * Descripiton : computes and prints the sum of all the multiples of 3 or
+ * Description : computes and prints the sum of all the multiples of 3 or
  * 5 below 1024 (excluded), followed by a new line
- * Return : 0
+ * Return: 0
  */
 
 int main(void)
@@ -21,6 +22,6 @@ int main(void)
 
 		c++;
 	}
-	printf("%i\n", sum)
+	printf("%i\n", sum);
 		return (0);
 }
